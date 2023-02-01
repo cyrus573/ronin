@@ -1,0 +1,31 @@
+@font-face 
+{
+    font-family: "Cyberpunk";
+    src: url('C:\Users\wailm\OneDrive\Documents\Cyberpunk.otf');
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: contain;
+
+  }
+
+h1
+{
+    font-family: "Cyberpunk";
+}
+
+.gigs
+{
+    height: 600px;
+    width: 600px;
+}
+
+.market, .map, .ripper, .hideout
+{
+    height: 300px;
+    width: 400px;
+}
