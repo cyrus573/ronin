@@ -8,19 +8,34 @@ body {
   }
 
 
-.swag 
+.wikitable 
 {
     font-family: "Consolas";
-    font-size: 24px;
+    font-size: 18px;
     color: #71C7F0;
-    background-image: url("Asset 1@4x.png");
+    background-image: url("4x/Asset 1@4x.png");
     background-size: 200px;
     border-style: solid;
     border-width: 5px;
     border-color: #71C7F0;
     padding: 10px;
     margin: 20px;
+    
 }
+
+p, h2, h3
+{
+    color: white;
+    font-family: "Consolas";
+}
+
+td, th
+{
+    border-bottom: #71C7F0 1px solid;
+}
+
+tr:hover {background-color: #71C7F0;
+color: black;}
 
 .name
 {
